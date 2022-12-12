@@ -1,11 +1,13 @@
 #include "lib.h"
-float numeri (float arr[], int n){
-	for(int i=0;i<n;++i){
-		if(arr[0]>arr[i]){
 
-		}else{
-				arr[0]=arr[i];
-		}
-	}
-	return arr[0];
+float max(const float array[],int d) {
+    float max;
+    int i;
+    max = array[0];
+    for (i = 1; i < d; i++) {
+
+        if (array[i] > max)
+            max = array[i];
+    }
+    return max;
 }
