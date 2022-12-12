@@ -8,4 +8,4 @@ float numeri (float arr[], int n){
 		}
 	}
 	return arr[0];
-p
+}
